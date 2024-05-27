@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+.text-brown{
+    color:blue
+}
+
+.text-red{
+    color:red
+}
+
+.text-blue{
+    color:green
+}
+
+span{
+    border: 2px dotted black;
+}
