@@ -1,0 +1,17 @@
+@charset "UTF-8";
+.sizez{
+    font-size: 20%;
+}
+
+.red{
+    background-color: red;
+    border-radius: 25%;
+}
+
+.a{
+    background-color: grey;
+}
+
+.b{
+    background-color: lightsteelblue;
+}
