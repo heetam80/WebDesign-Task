@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+
+
+.news5::before {
+  content: "";
+  padding-right: 10px;
+  border-left: 7px solid #9cd4a4;
+}
+
+.news6 {
+  margin-left: auto;
+}
+
+.news4 {
+  display: flex;
+}
+
+.news .image {
+  width: 640px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.news .right {
+  margin: 0 0 0 20px;
+  padding: 0;
+}
+
+.flex .title {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.flex .text {
+  margin: 10px 0 0;
+  padding: 0;
+}
+
+.news0 {
+  background-image: url(../news/img/pngtree-television-news-background-picture-image_1594889.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.news3 p {
+  margin-bottom: 70px;
+}
+
+#page_top {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  background: #00552e;
+  opacity: 0.6;
+}
+
+#page_top a {
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+}
+
+#page_top a::before {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f102';
+  font-size: 25px;
+  color: #fff;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 0;
+  bottom: 10px;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+}

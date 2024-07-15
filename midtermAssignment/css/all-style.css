@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+.breadcrumbs {
+    list-style: none;
+    display: flex;
+}
+
+.breadcrumbs li::after {
+    content: ">";
+    padding: 0 0.5rem;
+}
+
+.breadcrumbs li:last-child::after {
+    content: "";
+}
+
+.breadcrumbs li a:link {
+    color: red;
+}
+
+.breadcrumbs li a:visited {
+    color: slateblue;
+}
+
+.breadcrumbs li a:hover {
+    text-decoration: none;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    padding: 0px;
+}
+
+header ul li {
+    width: 30%;
+    text-align: center;
+}
+
+header ul li a {
+    display: block;
+    padding: 0.5rem;
+    color: cornflowerblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header ul li+li {
+    border-left: 2px solid black;
+}
+
+span {
+    color: goldenrod;
+    font-size: 200%;
+}
+
+body {
+    font-family: "Jersey 15 Charted", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #a3e9ef;
+    min-width: 700px;
+}
