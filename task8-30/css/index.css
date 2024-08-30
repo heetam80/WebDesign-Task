@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+iframe{
+    margin: 0 auto;
+    
+}
+
+#top{
+    background-image: url(img/HIMEHINA.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+.youtube{
+    margin-top: 10%;
+    margin-left: 55%;
+}
+
+.a{
+    border-bottom: 3px solid hsl(304, 100%, 54%);
+}
+
+.menyu li a {
+    color: black;
+    padding: 5%;
+  }
+
+  .setu{
+    background-color: rgb(255, 255, 255);
+  }
