@@ -22,11 +22,12 @@ img{
 
 a{
     text-align: center;
-    width: 30%;
+    width: 60%;
     border-radius: 30px;
     margin: 0 auto;
     padding: 10px;
     background-color: chartreuse;
+    display: block;
 }
 
 
@@ -52,5 +53,5 @@ a{
 }
 
 p{
-    width: 90%;
+    text-align: center;
 }
